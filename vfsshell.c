@@ -76,7 +76,7 @@ int main() {
             tree(current, 0);
         }
         else if(strcmp(command, "exit") == 0){
-            printf("Buyruq tugatildi!");
+            printf("Exiting...");
             return 0;
         }
         else{
